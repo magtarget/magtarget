@@ -3,7 +3,7 @@
     'name': "MagTarget Leaderboards",
 
     'summary': """
-        This Module will ultimately create views with the top leaderboards""",
+        This Module will ultimately create views with the top leaderboards. Edit 2""",
 
     'description': """
         We will start by focusing on the Work Order leaderboards. Then eventually add leaderboards to other areas of Odoo.
