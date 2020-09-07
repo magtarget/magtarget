@@ -2,13 +2,13 @@
 
 from odoo import models, fields, api
 
-# class leaderboard(models.Model):
-#     _name = 'leaderboard.leaderboard'
+ class leaderboard(models.Model):
+     _name = 'leaderboard.leaderboard'
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
+     leaderboard_name = fields.Char(string="Leaderboard Name", required=True)
+     Leaderboard_priority = fields.Integer()
+     jm_test_field = fields.Float(compute="_value_pc", store=True)
+     leaderboard_description = fields.Text()
 #
 #     @api.depends('value')
 #     def _value_pc(self):

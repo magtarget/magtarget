@@ -16,13 +16,11 @@
     -->
 
     <!-- actions opening views on models -->
-    <!--
     <record model="ir.actions.act_window" id="leaderboard.action_window">
       <field name="name">leaderboard window</field>
       <field name="res_model">leaderboard.leaderboard</field>
       <field name="view_mode">tree,form</field>
     </record>
-    -->
 
     <!-- server action to the one above -->
     <!--
@@ -41,14 +39,13 @@
     -->
 
     <!-- Top menu item -->
-    <!--
-    <menuitem name="leaderboard" id="leaderboard.menu_root"/>
-    -->
+    <menuitem name="leaderboard" id="leaderboard.menu_root"
+              web_icon="src/user/leaderboard/static/description/icon.png"/>
+
     <!-- menu categories -->
-    <!--
     <menuitem name="Menu 1" id="leaderboard.menu_1" parent="leaderboard.menu_root"/>
     <menuitem name="Menu 2" id="leaderboard.menu_2" parent="leaderboard.menu_root"/>
-    -->
+
     <!-- actions -->
     <!--
     <menuitem name="List" id="leaderboard.menu_1_list" parent="leaderboard.menu_1"
