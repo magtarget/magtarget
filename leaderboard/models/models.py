@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
- class leaderboard(models.Model):
+class leaderboard(models.Model):
      _name = 'leaderboard.leaderboard'
 
      leaderboard_name = fields.Char(string="Leaderboard Name", required=True)
