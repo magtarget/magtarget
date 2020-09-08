@@ -21,7 +21,6 @@
     </record>
 
     <!-- server action to the one above -->
-    <!--
     <record model="ir.actions.server" id="leaderboard.action_server">
       <field name="name">leaderboard server</field>
       <field name="model_id" ref="model_leaderboard_leaderboard"/>
@@ -34,7 +33,6 @@
         }
       </field>
     </record>
-    -->
 
     <!-- Top menu item -->
     <menuitem name="leaderboard" id="leaderboard.menu_root"
