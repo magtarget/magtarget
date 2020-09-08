@@ -1,7 +1,6 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-    <!--
     <record model="ir.ui.view" id="leaderboard.list">
       <field name="name">leaderboard list</field>
       <field name="model">leaderboard.leaderboard</field>
@@ -13,7 +12,6 @@
         </tree>
       </field>
     </record>
-    -->
 
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="leaderboard.action_window">
