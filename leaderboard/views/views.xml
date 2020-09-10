@@ -37,7 +37,7 @@
     </record>
 
     <!-- Top menu item -->
-    <menuitem name="leaderboard" id="leaderboard.menu_root"
+    <menuitem name="PSS Leaderboard" id="leaderboard.menu_root"
         web_icon="leaderboard,static/description/icon.png"/>
 
     <!-- menu categories -->
