@@ -38,7 +38,7 @@
 
     <!-- Top menu item -->
     <menuitem name="leaderboard" id="leaderboard.menu_root"
-              web_icon="src/user/leaderboard/static/description/icon.png"/>
+        web_icon="leaderboard,static/description/icon.png"/>
 
     <!-- menu categories -->
     <menuitem name="Menu 1" id="leaderboard.menu_1" parent="leaderboard.menu_root"/>
