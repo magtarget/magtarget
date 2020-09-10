@@ -4,12 +4,14 @@
     <record model="ir.ui.view" id="leaderboard.list">
       <field name="name">leaderboard list</field>
       <field name="model">leaderboard.leaderboard</field>
+    <!--
       <field name="arch" type="xml">
         <tree>
           <field name="name"/>
           <field name="value"/>
           <field name="value2"/>
         </tree>
+    -->
       </field>
     </record>
 
