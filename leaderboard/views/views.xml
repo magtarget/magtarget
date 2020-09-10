@@ -11,8 +11,8 @@
           <field name="value"/>
           <field name="value2"/>
         </tree>
-    -->
       </field>
+    -->
     </record>
 
     <!-- actions opening views on models -->
