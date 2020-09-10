@@ -10,8 +10,8 @@
         <!--
           <field name="value"/>
           <field name="value2"/>
-        </tree>
         -->
+        </tree>
       </field>
     </record>
 
