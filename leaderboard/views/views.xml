@@ -15,7 +15,7 @@
 
     <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="leaderboard.action_window">
-      <field name="name">leaderboard window</field>
+      <field name="name">Leaderboards</field>
       <field name="res_model">leaderboard.leaderboard</field>
       <field name="view_mode">tree,form</field>
     </record>
@@ -34,11 +34,13 @@
       </field>
     </record>
 
-    <!-- Top menu item -->
+    <!-- Top menu item 
+    This is the name that shows under the icon of the App in the Odoo main menu -->
     <menuitem name="PSS Leaderboard" id="leaderboard.menu_root"
         web_icon="leaderboard,static/description/icon.png"/>
 
-    <!-- menu categories -->
+    <!-- menu categories
+    This is the drop down menu that shows at the top, once the App is opened -->
     <menuitem name="Work Orders" id="leaderboard.work_orders" parent="leaderboard.menu_root"/>
     <menuitem name="Engineering ToDo" id="leaderboard.engineering_todo" parent="leaderboard.menu_root"/>
     <menuitem name="Configuration" id="leaderboard.configuration" parent="leaderboard.menu_root"/>

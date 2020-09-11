@@ -8,6 +8,8 @@ class leaderboard(models.Model):
     name = fields.Char(string="Leaderboard Name", required=True)
     Leaderboard_priority = fields.Integer()
     leaderboard_description = fields.Text()
+    user = fields.Many2one('res.partner', string='Publisher', ondelete='set null', context={}, domain=[],)
+
 #    jm_test_field = fields.Float(compute="_value_pc", store=True)
      
 #
