@@ -8,7 +8,8 @@ class leaderboard(models.Model):
     name = fields.Char(string="Leaderboard Name", required=True)
     Leaderboard_priority = fields.Integer()
     leaderboard_description = fields.Text()
-    responsible = fields.Many2one('res.partner', string='Responsible', ondelete='set null', context={}, 'domain=[("share","=",False)]')
+    responsible = fields.Many2one('res.partner', string='Responsible', domain="[('share','=',False)]")
+# copied from fleet vehicle addon for proper domain syntax    vendor_id = fields.Many2one('res.partner', 'Vendor', domain="[('supplier','=',True)]")
 # received error when using doing to filter to only show internal users:
 #   responsible = fields.Many2one('res.partner', string='Responsible', ondelete='set null', context={}, domain=[["share","=",False]],)
 
