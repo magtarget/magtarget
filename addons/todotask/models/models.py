@@ -2,11 +2,12 @@
 
 from odoo import models, fields, api
 
-# class todotask(models.Model):
-#     _name = 'todotask.todotask'
+class todotask(models.Model):
+     _name = 'todo.task'
 
-#     name = fields.Char()
-#     value = fields.Integer()
+     name = fields.Char(string=u"Things to do")
+
+     is_done = fields.Boolean(string=u"Done")
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
 #

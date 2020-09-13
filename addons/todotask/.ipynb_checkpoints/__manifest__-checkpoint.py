@@ -3,11 +3,10 @@
     'name': "todotask",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+       todo module""",
 
     'description': """
-        Long description of module's purpose
+    for creating a to do list
     """,
 
     'author': "My Company",
