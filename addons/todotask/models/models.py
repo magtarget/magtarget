@@ -2,14 +2,23 @@
 
 from odoo import models, fields, api
 
+class Todocategory(models.Model):
+    _name = "todo.category"
+    _description = "Todo tasks categories"
+    
+    name = fields.Char(string="Category name", required=True)
+
+    
+
 class todotask(models.Model):
     _name = 'todo.task'
 
-    name = fields.Char(string=u"Things to do")
-    is_done = fields.Boolean(string=u"Done")
+    name = fields.Char(string="Things to do")
+    is_done = fields.Boolean(string="Done")
     priority = fields.Selection([('todo', 'Things on hand'),('normal', 'Normal'),('urgent', 'Urgent')], default='todo', string='Urgent Level')
     deadline = fields.Datetime(string="Deadline")
     is_expired = fields.Boolean(string="Expired", compute="_compute_is_expired")
+    category_id = fields.Many2one("todo.category", string="Category")
     
     @api.depends("deadline")
     @api.multi
